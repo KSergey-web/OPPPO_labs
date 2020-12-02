@@ -1,0 +1,409 @@
+D:\testmes\tests>start_tests.bat
+
+D:\testmes\tests>cd ../builddir
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_1.txt" "..\\tests\\actual_result\\out_1.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_1.txt
+Файл пуст
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_2.txt" "..\\tests\\actual_result\\out_2.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_2.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "c", "b", "d"], "ciphertext" : "cd", "text" : "ab", "author" : "author", "vowels" : "1" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_3.txt" "..\\tests\\actual_result\\out_3.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_3.txt
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:3| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:4| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:7| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_4.txt" "..\\tests\\actual_result\\out_4.txt" 3 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_4.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:3| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:4| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:7| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 3
+Type function 1
+Выберите функцию:
+1. Удаление текстов с шифром Виженера
+2. Удаление текстов с шифром Циклического сдвига
+3. Удаление текстов с шифром Замены символов
+4. Удаление текстов количество глассных в которых равно 0
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:3| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:4| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:5| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_5.txt" "..\\tests\\actual_result\\out_5.txt" 3 2
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_5.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:3| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:4| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:7| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 3
+Type function 2
+Выберите функцию:
+1. Удаление текстов с шифром Виженера
+2. Удаление текстов с шифром Циклического сдвига
+3. Удаление текстов с шифром Замены символов
+4. Удаление текстов количество глассных в которых равно 0
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:2| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:3| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_6.txt" "..\\tests\\actual_result\\out_6.txt" 3 3
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_6.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 3
+Type function 3
+Выберите функцию:
+1. Удаление текстов с шифром Виженера
+2. Удаление текстов с шифром Циклического сдвига
+3. Удаление текстов с шифром Замены символов
+4. Удаление текстов количество глассных в которых равно 0
+Container :
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_7.txt" "..\\tests\\actual_result\\out_7.txt" 2 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_7.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:3| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:4| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:7| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 2
+Type function 1
+Выберите функцию:
+1. Сортировка по возрастанию количества гласных
+2. Сортировка по убыванию количества гласных
+Container :
+ number:0| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:1| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:2| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:3| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:4| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:7| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_8.txt" "..\\tests\\actual_result\\out_8.txt" 2 2
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_8.txt
+
+Container :
+ number:0| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:1| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:2| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:3| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+ number:4| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:5| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:6| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:7| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 2
+Type function 2
+Выберите функцию:
+1. Сортировка по возрастанию количества гласных
+2. Сортировка по убыванию количества гласных
+Container :
+ number:0| { "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" }
+ number:1| { "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" }
+ number:2| { "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" }
+ number:3| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" }
+ number:4| { "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" }
+ number:5| { "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" }
+ number:6| { "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" }
+ number:7| { "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" }
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_9.txt" "..\\tests\\actual_result\\out_9.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_9.txt
+Error lexeme: m b1
+Error lexeme: 2.2
+Error lexeme: 2.3
+Error lexeme: +2
+Error lexeme: +2
+Error lexeme: ihm otsb bg1
+Error lexeme: the best or1
+Error lexeme: ihm o2tsb bg
+Error lexeme: the b2est or
+Warning: Incorrect in file in text number 1 in field type(excess field)
+Warning: Incorrect in file in text number 1 in field ptr_array(empty)
+Warning: Incorrect in file in text number 2 in field (Incorrect field)
+Warning: Incorrect in file in text number 3 in field (Incorrect field)
+Warning: Incorrect in file in text number 4 in field (Incorrect field)
+Warning: Incorrect in file in text number 5 in field (Incorrect field)
+Warning: Incorrect in file in text number 6 in field encryptiontype (this type is not exist)
+Warning: Incorrect in file in text number 7 in field ciphertext(absent)
+Warning: Incorrect in file in text number 8 in field text(absent)
+Warning: Incorrect in file in text number 9 in field author(absent)
+Warning: Incorrect in file in text number 10 in field ptr_array (not all characters are substituted)
+Warning: Incorrect in file in text number 11 in field ciphertext(value not recognized)
+Warning: Incorrect in file in text number 12 in field author(incorrect char)
+Warning: Incorrect in file in text number 13 in field ptr_array (not all characters are substituted)
+Warning: Incorrect in file in text number 15 in field author (duplication)
+Warning: Incorrect in file in text number 16 in field ciphertext (duplication)
+Warning: Incorrect in file in text number 17 in field ptr_array (duplication)
+Warning: Incorrect in file in text number 18 in field (Incorrect field)
+Warning: Incorrect in file in text number 19 in field shift(is not integer)
+Warning: Incorrect in file in text number 20 in field shift(is not integer)
+Warning: Incorrect in file in text number 22 in field shift(is not integer)
+Warning: Incorrect in file in text number 23 in field shift(is not integer)
+Warning: Incorrect in file in text number 24 in field (Incorrect field)
+Warning: Incorrect in file in text number 26 in field text(value not recognized)
+Warning: Incorrect in file in text number 27 in field text(value not recognized)
+Warning: Incorrect in file in text number 28 in field (Incorrect field)
+Warning invalid characters outside of objects: keyword
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: pain
+Warning invalid characters outside of objects: ciphertext
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: ihm otsb bg
+Warning invalid characters outside of objects: text
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: the best or
+Warning invalid characters outside of objects: author
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: Not me
+
+Error: no character from text was found in the array of replacements.
+failed to create object :
+author = Me, charscipher = bm, charsorigin = ai, ciphertext = m bi, encryptiontype = CharReplacement, ptr_array = a b i m , text = i am,
+
+it was not possible to get the specified encrypted from the source text
+failed to create object :
+author = and me, ciphertext = K co vjg dguv, encryptiontype = CyclicalShift, shift = -2, text = I am the best,
+
+it was not possible to get the specified encrypted from the source text
+failed to create object :
+author = Not me, ciphertext = ihm otsb bg, encryptiontype = Vigenere, keyword = pain, text = the best ore,
+
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_10.txt" "..\\tests\\actual_result\\out_10.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_10.txt
+Array of texts not found in file ("[""]")
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_11.txt" "..\\tests\\actual_result\\out_11.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_11.txt
+Warning invalid characters outside of objects: ptr_array
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: ciphertext
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: m bi
+Warning invalid characters outside of objects: text
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: i am
+Warning invalid characters outside of objects: author
+Warning invalid characters outside of objects: :
+Warning invalid characters outside of objects: Me
+Error braket}
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_12.txt" "..\\tests\\actual_result\\out_12.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_12.txt
+Waring: unclosed braket{
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>demo.exe "..\\tests\\input_data\\in_13.txt" "..\\tests\\actual_result\\out_13.txt" 1
+Visual Leak Detector read settings from: C:\Program Files (x86)\Visual Leak Detector\vld.ini
+Visual Leak Detector Version 2.5.1 installed.
+Start
+File: in_13.txt
+Error lexeme: m
+Error lexeme: bi
+Error lexeme: m
+Error lexeme: bi
+Error lexeme: text
+Error lexeme:  :
+Error lexeme: i
+Error lexeme: am
+Error lexeme: author
+Error lexeme: Me
+Error lexeme:
+{
+Error lexeme: ptr_array
+Error lexeme:  : [
+Error lexeme: a
+Error lexeme: b
+Error lexeme: i
+Error lexeme: m
+Error lexeme: m
+Error lexeme: i
+Error lexeme:  ,
+Error lexeme: ciphertext
+Error lexeme:  : m bi
+Warning: Incorrect in file in text number 1 in field (Incorrect field)
+Warning invalid characters outside of objects:
+{
+Warning invalid characters outside of objects: ptr_array
+Warning invalid characters outside of objects:  : [
+Warning invalid characters outside of objects: a
+Warning invalid characters outside of objects:
+Warning invalid characters outside of objects: b
+Warning invalid characters outside of objects:
+Warning invalid characters outside of objects: i
+Warning invalid characters outside of objects:
+Warning invalid characters outside of objects: m
+Warning invalid characters outside of objects:
+Warning invalid characters outside of objects: m
+Warning invalid characters outside of objects:
+Warning invalid characters outside of objects: i
+Error braket]
+Container :
+Выберите функцию:
+1. Простой вывод
+2. Отсортировать
+3. Удаление элементов
+Function 1
+No memory leaks detected.
+Visual Leak Detector is now exiting.
+
+D:\testmes\builddir>pause
+Для продолжения нажмите любую клавишу . . .

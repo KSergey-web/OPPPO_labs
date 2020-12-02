@@ -1,0 +1,3 @@
+[
+{ "ptr_array" : ["a", "b", "i", "m", "m", "i"] , "ciphertext" : "m bi", "text" : "i am", "author":"Me"}
+]

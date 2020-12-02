@@ -1,0 +1,10 @@
+[
+{ "ptr_array" : ["a", "b", "i", "m", "m", "i"], "ciphertext" : "m bi", "text" : "i am", "author" : "Me", "vowels" : "2" },
+{ "shift" : 2, "ciphertext" : "K co vjg dguv", "text" : "I am the best", "author" : "and me", "vowels" : "4" },
+{ "keyword" : "pain", "ciphertext" : "ihm otsb bg", "text" : "the best or", "author" : "Not me", "vowels" : "3" },
+{ "ptr_array" : ["a", "b"], "ciphertext" : "b", "text" : "a", "author" : "again me", "vowels" : "1" },
+{ "shift" : 1, "ciphertext" : "uif", "text" : "the", "author" : "Not me", "vowels" : "1" },
+{ "keyword" : "hello", "ciphertext" : "alp mszx", "text" : "the best", "author" : "Not me", "vowels" : "2" },
+{ "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "Not me", "vowels" : "2" },
+{ "shift" : -1, "ciphertext" : "z z a", "text" : "a a b", "author" : "me me me", "vowels" : "2" },
+]
